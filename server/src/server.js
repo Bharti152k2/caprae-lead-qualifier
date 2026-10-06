@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
 const connectDB = require("./db");
-const Company = require("./models/company");
+const Company = require("./models/Company");
 const qualifyCompany = require("./qualifier");
 const deduplicateCompanies = require("./deduplicate");
 const validateCompany = require("./validator");

@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 const connectDB = require("./db");
-const Company = require("./models/company");
+const Company = require("./models/Company");
 
 const companies = [
     {
